@@ -263,13 +263,73 @@ section.landing .profile-area .outer-circle i:nth-child(3){
 section.landing .profile-area .outer-circle i:nth-child(4){
     top:  calc(50% - 2rem);
     left: -2rem;
+    
 }
 
 section.landing .profile-area .inner-circle {
     position: absolute;
-
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
     overflow: hidden;
 }
+
+/*  +++++++++++++++++++ ABOUT +++++++++++++++ */
+
+section.about {
+    background: var(--color-light);
+}
+section.about .container {
+    display: grid;
+    grid-template-columns: 26rem auto;
+    gap: 5rem;
+}
+
+section.about p {
+    margin-bottom: 1rem;
+}
+
+section.about .container .read-more-content  {
+        display: none;
+    }
+
+section.about .container .read-more {
+    display: block;
+    margin: 1rem 0 2rem;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+section.about .container .read-more:hover {
+    text-decoration: underline;
+}
+
+
+/*============ Recent Work =========*/
+
+section.recent-work h1 {
+    text-align: left;
+    margin: 3rem 0 1rem;
+    width: 65%;
+}
+section.recent-work .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+section.recent-work .projects .project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.recent-work .projects .project .action {
+    display: flex;
+    gap: 2rem;
+}
+section.recent-work .projects .project .action a {
+    color: var(--color-primary);
+}
+    section.recent-work .projects .project .action a:hover {
+        text-decoration: underline;
+    }
