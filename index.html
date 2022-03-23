@@ -18,14 +18,14 @@
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <!-- <li><a href="#skills">Skills</a></li> -->
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button><span class="material-icons-sharp">
+            <button id="menu-btn"><span class="material-icons-sharp">
                 menu
                 </span></button>
-                <button> <span class="material-icons-sharp">
+                <button id="close-btn"> <span class="material-icons-sharp">
                     close
                     </span></button>
         </div>
@@ -78,6 +78,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem repellat, hic beatae cum illo officia corporis, odit distinctio, non aliquid temporibus mollitia facere sunt ipsam. Delectus, facilis maxime quibusdam similique consequatur sed vitae recusandae dignissimos culpa minima voluptatum. Molestias debitis iure quia temporibus sed, nobis quod porro nihil quasi?</p>
                     </div>
                     <a class="read-more" id="read">Show More</a>
+                    <a class="read-less" id="read">Show Less</a>
                     <a href="./Welcome.pdf" download class=" btn btn-primary"><i class="uil uil-file-download"></i>Download CV</a>
                 </div>
             </div>
@@ -93,7 +94,7 @@
             <div class="projects">
                 <div class="project">
                     <div class="thumbnail">
-                        <img src="https://source.unsplash.com/random" alt="">
+                        <img src="https://source.unsplash.com/random/1000x1000" alt="">
                     </div>
                     <h2>Complete Responsive Website</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum nemo recusandae ullam aspernatur voluptatibus repellat voluptas dolor perspiciatis. Repellendus dolores est quia reiciendis accusantium dolorem illo explicabo ipsum temporibus?</p>
@@ -104,7 +105,7 @@
                 </div>
                 <div class="project">
                     <div class="thumbnail">
-                        <img src="https://source.unsplash.com/random?code" alt="">
+                        <img src="https://source.unsplash.com/random/1000x1000?code" alt="">
                     </div>
                     <h2>Complete Responsive Website</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum nemo recusandae ullam aspernatur voluptatibus repellat voluptas dolor perspiciatis. Repellendus dolores est quia reiciendis accusantium dolorem illo explicabo ipsum temporibus?</p>
@@ -115,7 +116,7 @@
                 </div>
                 <div class="project">
                     <div class="thumbnail">
-                        <img src="https://source.unsplash.com/random?car" alt="">
+                        <img src="https://source.unsplash.com/random/1000x1000?car" alt="">
                     </div>
                     <h2>Complete Responsive Website</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum nemo recusandae ullam aspernatur voluptatibus repellat voluptas dolor perspiciatis. Repellendus dolores est quia reiciendis accusantium dolorem illo explicabo ipsum temporibus?</p>
@@ -126,7 +127,7 @@
                 </div>
                 <div class="project">
                     <div class="thumbnail">
-                        <img src="https://source.unsplash.com/random?ecommerce" alt="">
+                        <img src="https://source.unsplash.com/random/1000x1000?ecommerce" alt="">
                     </div>
                     <h2>Complete Responsive Website</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum nemo recusandae ullam aspernatur voluptatibus repellat voluptas dolor perspiciatis. Repellendus dolores est quia reiciendis accusantium dolorem illo explicabo ipsum temporibus?</p>
@@ -138,6 +139,44 @@
             </div>
             </div>
         </section>
+
+        <!-- +++++++++++++++++++End of Projects +++++++++++++++++-->
+        <section class="contact" id="contact">
+            <div class="overlay">
+                <div class="container">
+                    <h1>Lets Talk</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dicta atque error sapiente modi aut?</p>
+                    <form action="https://formspree.io/f/xzbovqwo" method="POST">
+                        <input type="text" name="Name" placeholder="Name" required >
+                        <input type="email" name="Email" placeholder="Email" required >
+                        <input type="text" name="Subject" placeholder="Subject"  required>
+                        <textarea name="Message" required placeholder="Message"></textarea>
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ++++++++++++++++++++++++++++End of  Contact-->
+
+        <footer>
+            <div class="container">
+                <a href=""><h3>High5Developer</h3></a>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#skills">Skills</a></li> -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="socials">
+                    <a href="" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a>
+                    <a href="" target="_blank"><i class="uil uil-github"></i></a>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; P Doyle</div>
+        </footer>
 
         <script src="main.js"></script>
 </body>
